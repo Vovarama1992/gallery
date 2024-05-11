@@ -9,7 +9,7 @@ export default {
 
   },
   setup(props) {
-    const handleInput = (event) => {
+    const handleInput = (event: Event) => {
       props.onInputChange(event);
     };
 
