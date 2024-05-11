@@ -1,8 +1,8 @@
 <script setup>
 import { ref, onMounted } from 'vue';
-import Search from './Search.vue';
-import Gallery from './Gallery.vue';
-import { fetchImages } from '../fetchers';
+import Search from './components/Search.vue';
+import Gallery from './components/Gallery.vue';
+import { fetchImages } from './fetchers';
 
 const text = ref('');
 const timer = ref(false);
