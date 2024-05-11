@@ -1,0 +1,9 @@
+.container {
+  width: 96vw;
+  min-height: 100vh; 
+  overflow-y: auto;
+  padding-top: 5px;
+  background: rgb(108, 108, 202);
+  margin: 0 1%;
+  
+}
