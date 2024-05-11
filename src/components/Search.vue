@@ -1,6 +1,6 @@
 <script lang='ts'>
 
-import { defineProps } from 'vue';
+
 
 export default {
   props: {
@@ -9,9 +9,11 @@ export default {
 
   },
   setup(props) {
-    const handleInput = (event: Event) => {
-      props.onInputChange(event);
-    };
+    const handleInput = (event?: InputEvent) => {
+  if (props.onInputChange && event) {
+    props.onInputChange(event);
+  }
+};
 
     return {
       handleInput
