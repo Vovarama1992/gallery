@@ -46,7 +46,7 @@ export default {
         clearTimeout(timer);
         timer = setTimeout(() => {
           loadImages();
-        }, 500);
+        }, 300);
       }
     );
 
